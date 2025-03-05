@@ -1,0 +1,61 @@
+# Временные файлы и кэш
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Сборки для разных платформ
+Build/
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# Конфиги пользователей
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditor.ini
+
+# Логи и автосохранения
+*.log
+*.tmp
+*.svclog
+*.dump
+*.gpulog
+*.mempool
+*.tps
+
+# Файлы сборки Visual Studio
+.vscode/
+*.sln
+*.suo
+*.VC.db
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+.vs/
+# Файлы CMake и CLion
+CMakeLists.txt
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# Игнорировать файлы Unreal Build Tool (UBT)
+*.xcodeproj
+*.xcworkspace
+*.dot
+*.pdb
+*.obj
+*.idb
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+*.lib
+*.a
+
+# Игнорировать содержимое __pycache__ (если используется Python)
+__pycache__/
+*.pyc
+*.pyo
+
+# Файлы MacOS
+.DS_Store
